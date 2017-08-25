@@ -1,0 +1,23 @@
+body { 
+    margin: 0; 
+    background: white; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgb(56, 9, 174), rgb(251, 34, 88), rgb(253,215,98)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgb(56, 9, 174), rgb(251, 34, 88), rgb(253,215,98)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgb(56, 9, 174), rgb(251, 34, 88), rgb(253,215,98)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgb(56, 9, 174), rgb(251, 34, 88), rgb(253,215,98)); /* Standard syntax */
+}
+}
+
+canvas { 
+    width: 100%; 
+    height: 100%; 
+}
+
+#controls {
+    position: fixed;
+    top: 40vh;
+    left: 49%;
+    padding: 5px;
+
+    cursor: pointer;
+}
